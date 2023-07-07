@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">selection</string>
+    <string name="start">start</string>
+    <string name="word">your choice is</string>
+    <string name="Done">Done</string>
+    <string name="first">please input your options:</string>
+    <string name="option">your option</string>
+    <string name="DoneBt">DoneBt</string>
+    <string name="Back">Back</string>
+    <string name="again">again</string>
+</resources>

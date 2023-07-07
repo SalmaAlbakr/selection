@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".selection">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="309dp"
+        android:layout_height="74dp"
+        android:text="@string/option"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/theOption1"
+        android:layout_width="320dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/option"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/theOption2"
+        android:layout_width="320dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/option"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theOption1" />
+
+    <TextView
+        android:id="@+id/theOption3"
+        android:layout_width="320dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/option"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theOption2" />
+
+    <TextView
+        android:id="@+id/theOption4"
+        android:layout_width="320dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/option"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theOption3" />
+
+    <TextView
+        android:id="@+id/optionTest"
+        android:layout_width="320dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/option"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theOption4" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/start"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theOption4"
+        app:layout_constraintVertical_bias="0.987" />
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="181dp"
+        android:layout_height="62dp"
+        android:text="@string/Back"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/startButton"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theOption4"
+        app:layout_constraintVertical_bias="0.975" />
+</androidx.constraintlayout.widget.ConstraintLayout>
